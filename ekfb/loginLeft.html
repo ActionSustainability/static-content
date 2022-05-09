@@ -34,13 +34,53 @@
 			color: #6c7a8b;
 		}
 
+
 		.background-logo-image {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			max-width: 100%;
+			background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url(https://www.supplychainschool.co.uk/wp-content/uploads/2021/10/Wendover-Dean-Viaduct-1.jpg);
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center;
+			background-color: #22384e;
+			padding: 2rem;
+			margin: 1rem 0rem;
+			object-fit: contain;
+		}
+
+		.background-logo-image img {
+			clip-path: circle(50%);
+			background: white;
+			width: 10rem;
+			height: auto;
+			padding: 4rem 1rem;
+			margin: 0rem;
+		}
+
+		.tinted-bg {
+			background-color: rgb(244, 251, 252);
+			color: black;
+			padding: 1rem;
+			margin: 1rem;
+			background-clip: padding-box;
+
+		}
+
+		.noTint-bg {
+			padding: 1rem;
+			margin: 1rem;
+		}
+
+		/* .background-logo-image {
 			display: flex;
 			align-items: center;
 			justify-content: left;
 			max-width: 100%;
 			padding: 1rem;
 			margin: 0rem 0rem;
+			object-fit: contain;
 		}
 
 		.background-logo-image img {
@@ -50,7 +90,7 @@
 			height: auto;
 			padding: 80px;
 			margin: 0rem;
-		}
+		} */
 
 		.container-wrap-fluid {
 			max-width: 100%;
