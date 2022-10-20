@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Title -->
     <title>See - HTML Template</title>
+    <link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css"> </link>
 </head>
 
 <!-- Start Performance​ Area -->
@@ -51,10 +52,22 @@
     <div class="catcher-area">
         <div class="container-wrap">
             <div class="content_row">
-
                 <div class="catcher-content-2 noTint-bg">
                     <h2>INSERT HOW TO REPORT VIDEO</h2>
-                    <p>Add metrics guide + FAQ code from CC</p>
+
+                <div className="button-wrapper">
+                    <div class="vn-blue">
+                        <a href="https://github.com/ActionSustainability/static-content/blob/master/emcor/Metrics%20Guide%202022.xlsx?raw=true"
+                            class="btn-wrap"
+                            download>Metrics guide</a>
+                    </div>
+                    <div class="vn-blue">
+                        <a href="https://github.com/ActionSustainability/static-content/blob/master/emcor/FAQs.xlsx?raw=true"
+                            class="btn-wrap"
+                            download="FAQs">FAQs</a>
+                    </div>
+                </div>
+
                     <br>
                     <h2>EMCOR is a Partner of the Supply Chain Sustainability School</h2>
                     <p>
@@ -117,7 +130,7 @@
             background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url(https://github.com/ActionSustainability/static-content/blob/master/emcor/EMCOR-UK-Sustainability-Landing-graphic.jpg?raw=true);
             background-size: cover;
             background-repeat: no-repeat;
-            background-position: center;
+            background-position: top;
             background-color: #22384e;
             padding: 3rem;
             margin: 0rem;
@@ -320,6 +333,51 @@
         .heder-area .logo-wrap span {
             font-size: 15px;
             color: #002d72;
+        }
+
+          /** Buttons Area CSS **/
+
+        @import "https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css";
+
+        a:link {
+            text-decoration: none;
+        }
+
+        .vn-blue a {
+            background-color: #2980b9;
+            display: inline-block;
+            position: relative;
+            margin: 0.5rem;
+            padding: 1rem 2rem 1.2rem 5rem;
+            color: #fff;
+            transition: all 0.4s ease;
+            border-radius: 1rem;
+        }
+
+        .vn-blue a:before {
+            content: "\f019";
+            font-family: fontAwesome;
+            position: absolute;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: inherit;
+            font-size: 28px;
+            border-radius: 0 20px 0 0;
+            color: #000;
+            background-color: #fff;
+            opacity: 0.3;
+            padding: 20px;
+            top: 0;
+            left: 0;
+        }
+
+        .vn-blue a:hover {
+            background: #2c3e50;
+        }
+
+        .button-wrapper {
+            display: flex;
+            flex-direction: row;
         }
 
         /** Performance​ Area CSS **/
@@ -525,6 +583,10 @@
                 padding: 0 20px;
             }
         }
+
+    
+
+
     </style>
     <!-- End Style Area -->
 
