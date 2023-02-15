@@ -82,11 +82,29 @@
                             class="center">
                     </div>
 
+                    <div class="catcher-content-2 noTint-bg">
+                        <h2>Relevant resources</h2>
+                        <p>If you are classified as a Cadent Management Organisation, Local Delivery Partner or in
+                            Capital Delivery please submit your data via the Sustainability Tool</p>
+                        <a class="styled-button" style="color: white; background-color: #fa4616;"
+                            href="https://cadent.sustainabilitytool.com/accounts/login" target="_blank">
+                            Sustainability Tool
+                        </a>
+                        <p style="margin-top: 3rem;">If you are classified as a Product Manufacturer or other
+                            organisation in the Supply Chain
+                            please submit data via the Carbon Calculator</p>
+                        <a class="styled-button" style="color: white; background-color: #181B33;"
+                            href="https://carbon.sustainabilitytool.com/" target="_blank">
+                            Carbon Calculator
+                        </a>
+                    </div>
+
+
 
 
                     <div class="catcher-content-2 noTint-bg">
-                        <img
-                            src="https://github.com/ActionSustainability/static-content/blob/master/cadent/CMOLDPCapital%20Delivery%20(1920%20%C3%97%20450px)%20(6).png?raw=true" />
+                        <!-- <img
+                            src="https://github.com/ActionSustainability/static-content/blob/master/cadent/CMOLDPCapital%20Delivery%20(1920%20%C3%97%20450px)%20(6).png?raw=true" /> -->
                         <h2>
                             Cadent goals
                         </h2>
@@ -220,9 +238,48 @@
                 color: white;
             }
 
+
+
+            /* CSS */
+            .styled-button {
+                /* background-color: #fa4616; */
+                border-radius: 8px;
+                border-style: none;
+                box-sizing: border-box;
+                color: #FFFFFF;
+                cursor: pointer;
+                display: inline-block;
+                font-size: 14px;
+                font-weight: 500;
+                height: 40px;
+                line-height: 20px;
+                list-style: none;
+                margin: 0;
+                outline: none;
+                padding: 10px 16px;
+                position: relative;
+                text-align: center;
+                text-decoration: none;
+                transition: color 100ms;
+                vertical-align: baseline;
+                user-select: none;
+                -webkit-user-select: none;
+                touch-action: manipulation;
+                max-width: 70%;
+                align-self: center;
+            }
+
+            .styled-button:hover,
+            .styled-button:focus {
+                opacity: 0.5;
+            }
+
+
             .noTint-bg {
                 margin-bottom: 2rem;
                 padding: 1rem;
+                display: flex;
+                flex-direction: column;
             }
 
             .noTint-bg li {
@@ -527,7 +584,8 @@
 
             .side-by-side img {
                 max-width: 50%;
-                max-height: 90%;
+                /* max-height: 90%; */
+                object-fit: contain;
             }
 
             /** Responsive Area CSS **/
