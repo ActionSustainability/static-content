@@ -1,1 +1,33 @@
+<body>
+    <div class="preLogin-logo-container">
+        <div class="preLogin-logo-image">
+            <img src="https://github.com/ActionSustainability/static-content/blob/master/grosvenor/Grosvenor_Full-colour_stacked_logo_RGB.png?raw=true">
+        </div>
+    </div>
+    <style>
+        .preLogin-logo-image {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            max-width: 100%;
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url(https://github.com/ActionSustainability/static-content/blob/master/grosvenor/Partner-Page-Grosvenor-610x420.png?raw=true);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color: #22384e;
+            padding: 1rem;
+            margin: 0rem;
+            object-fit: contain;
+        }
 
+        .preLogin-logo-image img {
+            object-fit: contain;
+            clip-path: circle(40%);
+            background: white;
+            width: 13rem;
+            height: auto;
+            padding: 5rem 3rem;
+            margin: 0rem;
+        }
+    </style>
+</body>
