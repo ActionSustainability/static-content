@@ -6,21 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Title -->
     <title>See - HTML Template</title>
-    <script>
-        function openCompany(evt, companyName) {
-            var i, x, tablinks;
-            x = document.getElementsByClassName("company");
-            for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";
-            }
-            tablinks = document.getElementsByClassName("tablink");
-            for (i = 0; i < x.length; i++) {
-                tablinks[i].className = tablinks[i].className.replace(" activeTab", "");
-            }
-            document.getElementById(companyName).style.display = "flex";
-            evt.currentTarget.className += " activeTab";
-        }
-    </script>
+
 </head>
 
 <!-- Start Performance Area -->
@@ -740,7 +726,21 @@
     </style>
     <!-- End Style Area -->
 
-
+    <script>
+        function openCompany(evt, companyName) {
+            var i, x, tablinks;
+            x = document.getElementsByClassName("company");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablink");
+            for (i = 0; i < x.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" activeTab", "");
+            }
+            document.getElementById(companyName).style.display = "flex";
+            evt.currentTarget.className += " activeTab";
+        }
+    </script>
 </body>
 
 </html>
