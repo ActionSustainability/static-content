@@ -327,6 +327,26 @@
                     </div>
                     <br />
                 </div>
+                <div class="button-wrapper">
+                    <div class="vn-blue">
+                        <a href="https://github.com/ActionSustainability/static-content/raw/master/ssen/2023_Administrator_Independent_Learning_Guide.pdf"
+                            class="btn-wrap" download>
+                            Administrator guide
+                        </a>
+                    </div>
+                    <div class="vn-blue">
+                        <a href="https://github.com/ActionSustainability/static-content/raw/master/ssen/2023_Viewer_Guide.pdf"
+                            class="btn-wrap" download>
+                            Viewer guide
+                        </a>
+                    </div>
+                    <div class="vn-blue">
+                        <a href="https://github.com/ActionSustainability/static-content/raw/master/ssen/2023_Reporter_Guide.pdf"
+                            class="btn-wrap" download>
+                            Reporter guide
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -541,6 +561,55 @@
                 color: white;
             }
 
+            /* download buttons styling  start */
+            @import "https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css";
+
+            .button-wrapper {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+            }
+
+            .vn-blue a:link {
+                text-decoration: none;
+            }
+
+            .vn-blue a {
+                background-color: #2980b9;
+                display: inline-block;
+                position: relative;
+                margin: 0.5rem;
+                padding: 1rem 2rem 1.2rem 5rem;
+                color: #fff;
+                transition: all 0.4s ease;
+                border-radius: 1rem;
+            }
+
+            .vn-blue a:before {
+                content: "\f019";
+                font-family: fontAwesome;
+                position: absolute;
+                font-style: normal;
+                font-weight: normal;
+                text-decoration: inherit;
+                font-size: 28px;
+                border-radius: 0 20px 0 0;
+                color: #000;
+                background-color: #fff;
+                opacity: 0.3;
+                padding: 20px;
+                top: 0;
+                left: 0;
+            }
+
+            .vn-blue a:hover {
+                background: #2c3e50;
+            }
+
+
+
+            /* download buttons styling  end */
+
             .noTint-bg {
                 margin-bottom: 2rem;
                 padding: 1rem;
@@ -598,8 +667,8 @@
 
             .text-section h3,
             h4 {
-                margin-top: 1rem;
-                margin-bottom: 0.3rem;
+                margin-top: 0.7rem;
+                margin-bottom: 0rem;
             }
 
             .text-section p {
