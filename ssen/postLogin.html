@@ -13,7 +13,7 @@
 <body>
     <!-- Start Company tabs Area -->
     <div class="catcher-area">
-        <div class="container-wrap">
+        <div class="container">
             <div class="tab-bar shadow-box">
                 <button class="tab-item tab-button tablink activeTab"
                     onclick="changeLandingPageTab(event,'SseHome')">Home</button>
@@ -22,8 +22,12 @@
                 <button class="tab-item tab-button tablink" onclick="changeLandingPageTab(event,'SseTransmission')">SSEN
                     Transmission</button>
                 <button class="tab-item tab-button tablink"
+                    onclick="changeLandingPageTab(event,'SseEnergySolutions')">SSE Energy Solutions</button>
+                <button class="tab-item tab-button tablink"
                     onclick="changeLandingPageTab(event,'SseReporting')">Reporting Requirements and Training</button>
             </div>
+        </div>
+        <div class="container-wrap">
 
             <!-- SseHome -->
             <div id="SseHome" class="company">
@@ -222,13 +226,21 @@
                     </p>
                     <br />
                 </div>
-
+            </div>
+            <!-- SseEnergySolutions -->
+            <div id="SseEnergySolutions" class="company" style="display:none">
+                <div class="catcher-content-2">
+                    <h2>Who we are</h2>
+                    <p>
+                        SSE Energy Solutions
+                    </p>
+                </div>
             </div>
             <!-- SseReporting -->
             <div id="SseReporting" class="company" style="display:none">
                 <div class="catcher-content-2">
                     <div class="text-section">
-                        <h2 style="margin-bottom: 0;">Sustainability reporting requirements</h2>
+                        <h2>Sustainability reporting requirements</h2>
                         <h3>Company level reporting</h3>
                         <p>
                             On an annual frequency, our supply chain partners are expected to complete a survey which
@@ -674,11 +686,11 @@
                 color: #6c7a8b;
             }
 
-            .text-section h2 {
+            /* .text-section h2 {
                 margin-bottom: 0.5rem;
             }
 
-            .text-section h3,
+            .text-section h3, */
             h4 {
                 margin-top: 0.9rem;
                 margin-bottom: 0.3rem;
