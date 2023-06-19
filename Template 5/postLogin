@@ -1,1 +1,1070 @@
+<html lang="zxx">
 
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Title -->
+    <title>See - HTML Template</title>
+</head>
+
+<!-- Start Performance​ Area -->
+
+<body>
+    <!-- Start Company tabs Area -->
+    <div class="catcher-area">
+        <div class="container">
+            <div class="tab-bar shadow-box">
+                <button class="tab-item tab-button tablink activeTab"
+                    onclick="changeLandingPageTab(event,'SseHome')">Home</button>
+                <button class="tab-item tab-button tablink" onclick="changeLandingPageTab(event,'SseRenewables')">SSE
+                    Renewables</button>
+                <button class="tab-item tab-button tablink" onclick="changeLandingPageTab(event,'SseTransmission')">SSEN
+                    Transmission</button>
+                <button class="tab-item tab-button tablink"
+                    onclick="changeLandingPageTab(event,'SseEnergySolutions')">SSE Energy Solutions</button>
+                <button class="tab-item tab-button tablink"
+                    onclick="changeLandingPageTab(event,'SseReporting')">Reporting Requirements and Training</button>
+            </div>
+        </div>
+        <div class="container-wrap">
+
+            <!-- SseHome -->
+            <div id="SseHome" class="company">
+                <div class="catcher-content-2">
+                    <h2>Who we are</h2>
+                    <p>
+                        We are driven by our purpose: to provide energy needed today while building a better world of
+                        energy for tomorrow.
+                        We are a leading generator of renewable electricity and one of the largest electricity network
+                        companies in the UK.
+                        We develop, own and operate low carbon infrastructure to support the zero-carbon transition.
+                        This includes onshore and offshore wind, hydro power, electricity transmission and distribution
+                        grids, and efficient gas-fired generation, alongside providing energy products and services for
+                        businesses, and we have interests across Great Britain and Northern Ireland, Republic of
+                        Ireland, Japan, Spain, Portugal, Denmark and Poland.
+                    </p>
+                </div>
+
+                <div class="catcher-content-2 ">
+                    <br />
+                    <p>Our twin focus of practicality and inspiration is a strategy that has seen us through more than
+                        70 years.
+                        We are UK listed, employing 10,000 talented and skilled people and are real Living Wage and Fair
+                        Tax Mark accredited.
+                        Because we’re SSE, and we’re for a better world of energy – for everyone.
+                    </p>
+                    <br />
+                    <h2>Sustainability</h2>
+                    <p>Our vision is to be a leading energy provider in a net zero world.
+                        We are a leading generator of renewable electricity in the UK and Ireland and one of the largest
+                        electricity network companies in the UK.
+                        We have set four fundamental goals for 2030, directly linked to the United Nations Sustainable
+                        Development Goals (SDGs), which put sustainability at heart of SSE’s business strategy.
+                        Our 2030 Goals are:</p>
+                </div>
+                <img class="square-image"
+                    src="https://github.com/ActionSustainability/static-content/blob/master/ssen/Updated%20SSE%20Business%20Goals.png?raw=true" />
+                <div class="catcher-content-2">
+                    <p>We believe that the net zero transition should be delivered in a fair and just way. Our
+                        first <a href="https://www.sse.com/media/xtrlsctj/just-transition-strategy-sse-final.pdf"
+                            target="_blank">Just Transition strategy</a> outlines the principles which we will implement
+                        to support
+                        employees, consumers, communities and suppliers as we transition towards net zero. Our second
+                        report focuses on moving from principles to action and outlines 20 commitments from SSE, 10
+                        recommendations for industry and 10 recommendations for government. <a
+                            href="https://www.sse.com/media/uxidzg1u/just-transition-supporting-workers-transition.pdf"
+                            target="_blank">Read our second report here</a>.
+                    </p>
+                    <br />
+                    <h2>Sustainability and Supply Chain</h2>
+                    <p>
+                        With over 10,000 suppliers and a £7.5bn investment plan across the five years to 2025, we need
+                        to work with our supply chain partners to achieve our business goals.
+                        That’s why we have worked hard to help improve the social and environmental sustainability of
+                        SSE’s supply chain with a comprehensive sustainable procurement strategy. At the core of this
+                        strategy is our <a
+                            href="https://www.sse.com/media/4i1bzat0/sustainable-procurement-code_no-links-final.pdf"
+                            target="_blank">Sustainable Procurement Code</a>  and accompanying <a
+                            href="https://www.sse.com/media/3dhnslvl/sustainable-procurement-code_supplier-guidance_no-links-final.pdf"
+                            target="_blank">Supplier Guidance</a> .
+                        This is supported by SSE’s <a
+                            href="https://www.sse.com/media/rgipu2ql/sse-employee-guide-final-sep20.pdf"
+                            target="_blank">Doing the Right Thing SSE's guide to good business ethics</a> which supports
+                        the adoption of the right values, attitudes and behaviours to contribute to an ethical business
+                        culture. The guide covers a wide range of topics, from human rights and modern slavery, to
+                        managing data and cyber security. Suppliers and contractors should familiarise themselves with
+                        this guide and SSE’s expectations for ethical business behaviour.
+                        The aim is to share the economic, social and environmental opportunities created by SSE as we
+                        reach our 2030 Goals. It’s good for the planet, it’s good for society, and it’s good for
+                        business too.
+                    </p>
+                </div>
+                <img class="square-image"
+                    src="https://github.com/ActionSustainability/static-content/blob/master/ssen/sseBookCoversNew.png?raw=true" />
+            </div>
+            <!-- SseRenewables -->
+            <div id="SseRenewables" class="company" style="display:none">
+                <div class="catcher-content-2">
+                    <h2>Who we are</h2>
+                    <p> SSE Renewables is a leading developer and operator of renewable energy, headquartered in the UK
+                        and
+                        Ireland, with a growing presence internationally.
+                        We have an operational portfolio of around 4GW of onshore wind, offshore wind and hydro
+                        generation,
+                        with
+                        a secured future project pipeline of over 13GW in development.
+                    </p>
+                    <p>
+                        Our operational portfolio comprises nearly 2GW of onshore wind capacity, almost 0.5GW of
+                        offshore
+                        wind
+                        capacity, and almost 1.5GW of flexible hydro power and pumped storage capacity. These generation
+                        assets
+                        produce around 10TWh of renewable power each year.
+                        We're committed to delivering the green energy the world needs now and in the future. Our 13GW+
+                        construction and development pipeline includes 3.5GW of onshore wind, 1.5GW of pumped storage,
+                        and
+                        8.4GW
+                        of offshore wind energy - the largest offshore development pipeline in the UK and Ireland.
+                    </p>
+                </div>
+                <img class="wide-image"
+                    src="https://github.com/ActionSustainability/static-content/blob/master/ssen/editedTurbineCollection.png?raw=true" />
+                <div class="catcher-content-2">
+                    <p>
+                        We know offshore wind will be the backbone of a net zero power system and that's why
+                        we're building more offshore wind than any other company in the world right now. This includes
+                        the world's largest offshore wind farm, the 3.6GW Dogger Bank project in the North Sea, and the
+                        world's deepest fixed-bottom offshore wind farm, the 1.1GW Seagreen project off the Scottish
+                        coast.
+                    </p>
+                    <p>
+                        We're a team of around 1,500 renewable energy professionals based across the UK, Ireland, Spain,
+                        France, Italy, Greece, the Netherlands, Japan and the USA. We've honed our skills through over
+                        15 years of delivering world-leading projects with expertise in project design and optimisation,
+                        consenting and stakeholder engagement, financing, procurement, construction, and operations.
+                    </p>
+                    <br />
+                    <h2>Sustainability</h2>
+                    <p>
+                        After all the promises at COP26, it’s time to be bold and take action to address the climate
+                        crisis. The world needs clean, affordable, and sustainable energy – quickly and at scale – and
+                        SSE Renewables’ purpose is to deliver it.
+                        SSE Renewables is building more offshore wind than any other company in the world. We have set a
+                        goal to double our current renewable generation capacity to 8GW by 2026 and more than triple
+                        capacity to 13GW by 2031. This increase is expected to result in SSE Renewables generating at
+                        least 50TWh of renewable energy output by the end of the next decade, a fivefold increase from
+                        2019 levels.
+                    </p>
+                </div>
+                <img class="small-image"
+                    src="https://github.com/ActionSustainability/static-content/blob/master/ssen/cargoShip.png?raw=true" />
+                <div class="catcher-content-2">
+                    <h2>Supporting a fair and just transition to net zero</h2>
+                    <p>
+                        With a new strategy for ambitious growth in its home markets of the UK and Ireland, and
+                        overseas, we are putting sustainability at the core of how SSE Renewables will achieve these
+                        goals. In September 2022, SSE Renewables published its first Sustainability Report. The <a
+                            href="https://www.sserenewables.com/media/2egpe2on/sse-renewables-sustainability-report-2022-final.pdf"
+                            target="_blank">SSE
+                            Renewables Sustainability Report 2022</a> represents the company’s increased commitment to
+                        embedding
+                        sustainability through its operations. It describes how we are embedding sustainability through
+                        our strategy, our ambitions for getting to net zero, the ways we are protecting and enhancing
+                        the natural environment, and how we are playing a leading role in championing a fair and just
+                        transition too.
+                        You can read about how SSE Renewables is contributing to SSE plc’s 2030 Goals, which are aligned
+                        to the UN’s Sustainable Development Goals, by <a
+                            href="https://www.sserenewables.com/sustainability/our-2030-goals/" target="_blank">clicking
+                            here</a>.
+                    </p>
+                </div>
+            </div>
+            <!-- SseTransmission -->
+            <div id="SseTransmission" class="company" style="display:none">
+                <div class="catcher-content-2">
+                    <h2>Who we are</h2>
+                    <p>
+                        SSEN Transmission’s first priority is to provide a safe and reliable supply of electricity to
+                        the communities it serves. It does this by making sure its employees and contractors work safely
+                        while ensuring the network is able to function properly and meet electricity demand now and in
+                        the future.
+                    </p>
+                </div>
+                <img class="wide-image"
+                    src="https://github.com/ActionSustainability/static-content/blob/master/ssen/snowTelLines.jpg?raw=true" />
+                <div class="catcher-content-2">
+                    <p>
+                        Scotland’s transmission network has a strategic role to play in supporting delivery of the UK
+                        and Scotland’s Net Zero targets. We’re already a mass exporter of renewable energy, with around
+                        two thirds of power generated in our network area exported to demand centres further south. By
+                        2050, the north of Scotland is expected to need 40GW of low carbon energy capacity to support
+                        net zero delivery. For context, we currently have around 8GW of renewable generation connected
+                        in the north of Scotland.
+                    </p>
+                    <br />
+                    <h2>Our Sustainability Approach</h2>
+                    <h3>Strategy</h3>
+                    <p>Our sustainability strategy sets out six ambitions to enable a smart, sustainable energy future.
+                        These ambitions focus on the areas most material to our business and our stakeholders. These
+                        areas have been mapped to the United Nations Sustainable Development Goals to provide a clear
+                        line of sight from our strategic objectives to international action on sustainability.
+                    </p>
+                </div>
+                <img class="square-image"
+                    src="https://github.com/ActionSustainability/static-content/blob/master/ssen/ambitionsPie.png?raw=true" />
+                <div class="catcher-content-2">
+                    <h3>Action Plan</h3>
+                    <p>
+                        To help us achieve our sustainability goals, we developed a detailed Sustainability Action Plan
+                        (SAP) as part of our RIIO-T2 Business Plan. Within our SAP, we build on the 6 key areas from our
+                        strategy. We’ve identified key outcomes for each area, along with short, medium and long term
+                        steps to help us get there. We committed to focus on new areas of sustainability, increase our
+                        measurements and reporting of our impacts and take clear action to deliver against our
+                        stretching sustainability outcomes.
+                    </p>
+                    <br />
+                </div>
+            </div>
+            <!-- SseEnergySolutions -->
+            <div id="SseEnergySolutions" class="company" style="display:none">
+                <div class="catcher-content-2">
+                    <h2>Who we are</h2>
+                    <p>
+                        SSE Energy Solutions invests in, builds and controls localised, flexible energy assets to accelerate a path to net zero and create a more resilient energy system for the long term. 
+                    </p>
+                    <p>
+                        We construct a comprehensive portfolio of energy assets incorporating advanced technologies; these include - energy networks, heating & cooling, digitalized consumption and energy management, flexible generation & storage, and EV charging. 
+                    </p>
+                    <img class="square-image"
+                    src="https://github.com/ActionSustainability/static-content/blob/master/ssen/SSE_energy_EV.png.jpg?raw=true">
+                    <h2>Sustainability</h2>
+                    <p>
+                        Our sustainability plan sets out our ambitions and targets to enable a smart, flexible, resilient, and sustainable distributed energy system. The plan has assessed our material risks and opportunities and aligns with the United Nations Sustainable Development Goals and wider SSE Group Net Zero Action Plan commitments.
+                    </p>
+                    <h3>Our sustainability targets include:</h3>
+                    <ul class="custom-list">
+                        <li>Reduce the carbon intensity of scope 1 GHG emissions by 80% by 2030, from the 2017/18 baseline.
+                        </li>
+                        <li>Reduce absolute scope 1 and 2 GHG emissions by 72.5% by 2030 from a 2017/18 base year.
+                        </li>
+                        <li>Reduce absolute GHG emissions from the use of products sold by 50% by 2034 from a 2017/18 base year.
+                        </li>
+                        <li>Zero controlled waste to landfill by 2026.
+                        </li>
+                        <li>Achieve Biodiversity Net Gain on new large capital infrastructure structure projects.
+                        </li>
+                        <li>We are committed to powering over 1.5 million miles/day of zero-emission transport, through our investment in up to 500 charging bays, powered by renewable energy across the UK, by 2030.
+                        </li>
+                        <li>By 2035 we will collect and transport 250MW of renewable energy, through our Independent Networks providing low-carbon solutions to our clients. 
+                        </li>
+                        <li>Become a trusted regional community partner that challenges inequality and reduces environmental impact by delivering and reporting on our four commitments (community partner, inclusive recruitment, low carbon education, and environment) to key stakeholders by 2025.
+                        </li>
+                    </ul>
+                    <img class="square-image"
+                    src="https://github.com/ActionSustainability/static-content/blob/master/ssen/SSE%20img.png?raw=true">
+                </div>
+            </div>
+            <!-- SseReporting -->
+            <div id="SseReporting" class="company" style="display:none">
+                <div class="catcher-content-2">
+                    <div class="text-section">
+                        <h2>Sustainability reporting requirements</h2>
+                        <h3>Company level reporting</h3>
+                        <p>
+                            On an annual frequency, our supply chain partners are expected to complete a survey which
+                            focuses on governance and policies. <a
+                                href="https://github.com/ActionSustainability/static-content/raw/master/ssen/SDCT%20Annual%20Company%20Report%203.8.22.xlsx"
+                                download>Click here</a> to access and download the Excel reporting
+                            template.
+                        </p>
+                        <h3>Environmental reporting</h3>
+                        <p>
+                            On an annual and monthly frequency, our supply chain partners are expected to provide
+                            environmental data. <a
+                                href="https://github.com/ActionSustainability/static-content/raw/master/ssen/SDCT%20Annual%20and%20Monthly%20Environmental%20Report%2018.8.22.xlsx"
+                                download>Click here</a> to access and download the Excel reporting template which
+                            contains the specified metrics. <a
+                                href="https://github.com/ActionSustainability/static-content/raw/master/ssen/SDCT%20Annual%20and%20Monthly%20Environmental%20Report%2018.8.22.xlsx"
+                                download>Click here</a> to view and download the Excel Waste log.
+                        </p>
+                        <p>
+                            At the beginning of each project, our supply chain partners are also required to provide an
+                            embodied carbon estimate report for designs which includes civils, equipment, and other
+                            specific
+                            criteria. <a
+                                href="https://github.com/ActionSustainability/static-content/raw/master/ssen/SDCT%20Design%20Embodied%20Carbon%20Template.xlsx"
+                                download>Click here</a> to access and download the Excel reporting template.
+                        </p>
+                        <p>
+                            At the end of the project, once construction is complete, our supply chain partners are
+                            expected
+                            to provide an as built embodied carbon report to enable the carbon performance of projects
+                            to be
+                            monitored. <a
+                                href="https://github.com/ActionSustainability/static-content/raw/master/ssen/SDCT%20As%20Built%20Embodied%20Carbon%20Template.xlsx"
+                                download>Click here</a> to access and download the Excel reporting
+                            template.
+                        </p>
+                        <h3>Social value reporting</h3>
+                        <p>
+                            On an annual frequency, our supply chain partners are expected to provide social value data
+                            relating to communities and workforce. <a
+                                href="https://github.com/ActionSustainability/static-content/raw/master/ssen/SDCT%20Annual%20Social%20Value%20Report%203.8.22.xlsx"
+                                download>Click here to access and download the Excel reporting
+                                template</a>.
+                        </p>
+                    </div>
+                    <br />
+                    <div class="text-section">
+                        <h2>Users</h2>
+                        <p>
+                            There are four distinct user roles designed to facilitate the collection of sustainability
+                            data
+                            from our supply chain partners.​
+                        </p>
+                        <h3>Administrator</h3>
+                        <p>
+                            This is a SSEN Transmission employee who is a Project Coordinator, or a Project Manager
+                            within
+                            Network and Connections.
+                        </p>
+                        <h3>System Administrator</h3>
+                        <p>
+                            This is a SSEN Transmission employee within a sustainability focused role.
+                        </p>
+                        <h3>Viewer</h3>
+                        <p>
+                            This is a SSEN Transmission employee who is a Project Manager; however, Environmental
+                            Managers
+                            may also gain access to this role.
+                        </p>
+                        <h3>Reporter</h3>
+                        <p>
+                            This is the supply chain contact who has been identified to provide and submit the
+                            applicable
+                            sustainability data.
+                        </p>
+                        <p>It is important all users understand their applicable role and perform the necessary
+                            responsibilities to ensure the availability and quality of supply chain sustainability data.
+                            Please click here to access and download a detailed RACI Matrix in Excel format</p>
+                    </div>
+                    <br />
+                    <div class="text-section">
+                        <h2>Training and Support</h2>
+                        <p>
+                            We aim to promote flexible and learning at your own pace within SSEN Transmission. We have
+                            therefore created three, comprehensive, independent training guides which are tailored to
+                            each
+                            user role. The training guides are saved as PDF files for ease of sharing and can be
+                            accessed by
+                            clicking on the relevant tile below.​
+                        </p>
+                        <p>
+                            Please note you will be unable to access the guides once logged in to your user account. We
+                            recommend you open this webpage in a separate browser or logout to access and download a
+                            specific guide.​
+                        </p>
+                        <p>
+                            If you would like to receive a different delivery of learning, or require other support,
+                            please
+                            contact <a href="mailto:info@sustainabilitytool.com"
+                                target="_blank">info@sustainabilitytool.com</a> to
+                            discuss your needs. We understand learning is different for everyone and aim to promote an
+                            inclusive culture.​
+                        </p>
+                        <br />
+                        <br />
+                    </div>
+                    <div class="button-wrapper">
+
+                        <div class="vn-blue">
+                            <a href="https://github.com/ActionSustainability/static-content/raw/master/ssen/2023_Administrator_Independent_Learning_Guide.pdf"
+                                class="btn-wrap" download>
+                                Administrator guide
+                            </a>
+                        </div>
+                        <div class="vn-blue">
+                            <a href="https://github.com/ActionSustainability/static-content/raw/master/ssen/2023_Viewer_Guide.pdf"
+                                class="btn-wrap" download>
+                                Viewer guide
+                            </a>
+                        </div>
+                        <div class="vn-blue">
+                            <a href="https://github.com/ActionSustainability/static-content/raw/master/ssen/2023_Reporter_Guide.pdf"
+                                class="btn-wrap" download>
+                                Reporter guide
+                            </a>
+                        </div>
+                    </div>
+                    <br />
+                </div>
+            </div>
+        </div>
+
+
+        <!-- End Company tabs Area -->
+
+        <!-- Start Footer Area -->
+
+        <header class="heder-area mb-30">
+            <div class="container-wrap-fluid">
+                <div class="logo-wrap">
+                    <a href="index.html">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d5/SSEenergy.svg/1200px-SSEenergy.svg.png"
+                            alt="Images">
+                        <span>For a better <br> &ZeroWidthSpace;world of energy</span>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <div class="preLogin-logo-container">
+            <div class="preLogin-logo-image">
+                <img
+                    src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d5/SSEenergy.svg/1200px-SSEenergy.svg.png" />
+            </div>
+        </div>
+        <!-- End Footer Area -->
+
+        <!-- Start Style Area -->
+        <style>
+            /* @charset "UTF-8"; */
+            @import url(https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap);
+
+            .performance-img img {
+                display: block;
+                width: 1104px;
+                margin-left: auto;
+                margin-right: auto;
+                height: auto;
+                margin-top: 13px;
+                margin-bottom: 26px;
+            }
+
+            /* Tab styles start */
+            .tab-bar {
+                display: flex;
+                justify-content: center;
+                margin: 30px;
+                margin-top: 0;
+
+            }
+
+            .tab-button {
+                border: 0;
+                padding: 10px;
+                margin: 10px;
+                font-size: large;
+                border-radius: 5px;
+                background-color: white;
+            }
+
+            .tab-button:hover {
+                cursor: pointer;
+            }
+
+            .activeTab {
+                background-color: #22384e;
+                color: white;
+            }
+
+
+            .shadow-box {
+                box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+
+            }
+
+            .company {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .company img {
+                align-self: center;
+                justify-self: center;
+                margin-top: 30px;
+                margin-bottom: 30px;
+                /* object-fit: fill; */
+            }
+
+            .small-image {
+                object-fit: contain;
+                max-width: 30%;
+                height: auto;
+            }
+
+            .wide-image {
+                object-fit: contain;
+                max-width: 60%;
+                height: auto;
+            }
+
+            .square-image {
+                object-fit: contain;
+                max-width: 100%;
+                height: auto;
+            }
+
+
+            /* Tab styles end */
+
+            .video-wrapper {
+                position: relative;
+                overflow: hidden;
+                width: 100%;
+                padding-top: 56.25%;
+                margin-bottom: 2rem;
+                border: 1px solid black;
+            }
+
+            .responsive-iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                width: 100%;
+                height: 100%;
+            }
+
+
+            .image-wrapper {
+                display: flex;
+                justify-content: center;
+                max-width: fit-content;
+                object-fit: cover;
+                overflow: hidden;
+            }
+
+            .image-wrapper img {
+                max-width: 50%;
+                padding: 1rem;
+            }
+
+            .preLogin-logo-image {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                max-width: 100%;
+                background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url(https://github.com/ActionSustainability/static-content/blob/master/ssen/SSE%20hero.png?raw=true);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-color: #22384e;
+                padding: 1rem;
+                margin: 0rem;
+                object-fit: contain;
+            }
+
+            .preLogin-logo-image img {
+                object-fit: contain;
+                clip-path: circle(40%);
+                background: white;
+                width: 10rem;
+                height: auto;
+                padding: 5rem 3rem;
+                margin: 0rem;
+            }
+
+            .background-logo-image {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                max-width: 100%;
+                background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url(https://www.supplychainschool.co.uk/wp-content/uploads/2019/03/Partner-Page-Grosvenor.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-color: #22384e;
+                padding: 2rem;
+                margin: 1rem 0rem;
+            }
+
+            .background-logo-image img {
+                clip-path: circle(50%);
+                background: white;
+                width: 10rem;
+                height: auto;
+                padding: 4rem 2.5rem;
+                margin: 0rem;
+            }
+
+            .tinted-bg {
+                background-color: rgb(244, 251, 252);
+                color: black;
+                padding: 1rem;
+                margin-bottom: 1rem;
+                background-clip: padding-box;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: center;
+            }
+
+            .button-center {
+                align-self: center;
+                font-size: x-large;
+                background-color: #002d72;
+                text-decoration: none;
+                border-radius: 5rem;
+                padding: 1rem;
+            }
+
+            .button-center a {
+                color: white;
+            }
+
+            /* download buttons styling  start */
+            @import "https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css";
+
+            .button-wrapper {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+            }
+
+            .vn-blue a:link {
+                text-decoration: none;
+                font-size: large;
+            }
+
+            .vn-blue a {
+                background-color: #2980b9;
+                display: inline-block;
+                position: relative;
+                margin: 0.5rem;
+                padding: 1rem 2rem 1.2rem 2rem;
+                color: #fff;
+                transition: all 0.4s ease;
+                border-radius: 1rem;
+            }
+
+            .vn-blue a:before {
+                /* content: "\f019"; */
+                /* font-family: fontAwesome; */
+                position: absolute;
+                font-style: normal;
+                font-weight: normal;
+                text-decoration: inherit;
+                font-size: 28px;
+                border-radius: 0 20px 0 0;
+                color: #000;
+                background-color: #fff;
+                opacity: 0.3;
+                padding: 20px;
+                top: 0;
+                left: 0;
+            }
+
+            .vn-blue a:hover {
+                background: #2c3e50;
+            }
+
+
+
+            /* download buttons styling  end */
+
+            .noTint-bg {
+                margin-bottom: 2rem;
+                padding: 1rem;
+            }
+
+            .noTint-bg li {
+                color: #292a2c;
+                font-weight: 500;
+            }
+
+            .noTint-bg a {
+                color: #002d72;
+            }
+
+            .parter-logos-wrapper {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                object-fit: contain;
+
+            }
+
+            .parter-logos-wrapper img {
+                max-width: 13rem;
+            }
+
+            .heder-area .logo-wrap {
+                max-width: 100% !important;
+            }
+
+            .heder-area .logo-wrap img {
+                max-width: 101px;
+            }
+
+            p {
+                color: #292a2c !important;
+                font-weight: 500 !important;
+            }
+
+            .content-width .catcher-content-2 ul li {
+                font-weight: 500 !important;
+            }
+
+            body {
+                padding: 0;
+                margin: 0;
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 300;
+                color: #6c7a8b;
+            }
+
+            .custom-list {
+                color: #292a2c !important;
+                font-weight: 500 !important;
+            }
+
+            /* .text-section h2 {
+                margin-bottom: 0.5rem;
+            }
+
+            .text-section h3, */
+            /* h4 {
+                margin-top: 0.9rem;
+                margin-bottom: 0.3rem;
+            }
+
+            .text-section h3 {
+                font-size: 1rem;
+            }
+
+            .text-section p {
+                margin-bottom: 0.3rem;
+            } */
+
+            .container-wrap-fluid {
+                max-width: 100%;
+                margin: auto;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+
+            .catcher-content-2.mb-30 {
+                margin-top: 44px;
+            }
+
+            .container-wrap {
+                max-width: 1104px;
+                margin: auto;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+
+            p {
+                margin: 0;
+                font-size: 15px;
+                color: #6c7a8b;
+                margin-bottom: 15px;
+            }
+
+            p:last-child {
+                margin-bottom: 0;
+            }
+
+            a {
+                text-decoration: underline;
+                color: #002d72;
+            }
+
+            h3 {
+                font-weight: light;
+                /* color: #002d72; */
+                color: #6c7a8b;
+                /* margin-bottom: 15px; */
+
+
+            }
+
+            h2 {
+                font-weight: bold;
+                color: #002d72;
+                margin-top: 0;
+            }
+
+            h2 span {
+                font-weight: 700;
+                display: block;
+            }
+
+            .mb-30 {
+                margin-bottom: 30px;
+            }
+
+            .pl-15 {
+                padding-left: 15px;
+            }
+
+            .pr-15 {
+                padding-right: 15px;
+            }
+
+            /** Header Area CSS **/
+
+            .heder-area {
+                background-color: #ffffff;
+                padding-top: 15px;
+                float: center;
+                width: 100%;
+            }
+
+            .heder-area .logo-wrap {
+                position: relative;
+                padding-left: 115px;
+                text-align: right;
+                max-width: 120px;
+                margin-left: auto;
+                text-align: left;
+            }
+
+            .heder-area .logo-wrap img {
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+
+            .heder-area .logo-wrap span {
+                font-size: 15px;
+                color: #002d72;
+            }
+
+            /** Performance Area CSS **/
+
+            .video-wrapper {
+
+                position: relative;
+                overflow: hidden;
+                width: 50%;
+                padding-top: 28.175%;
+                margin-bottom: 0;
+                margin-left: 25%;
+            }
+
+            .responsive-iframe {
+                align-items: center;
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                width: 100%;
+                height: 100%;
+
+            }
+
+            .performance-content h2 {
+                margin-bottom: 20px;
+            }
+
+            .performance-content p {
+                font-size: 15px;
+                color: #6c7a8b;
+                margin-bottom: 15px;
+            }
+
+            .performance-content .performance-img {
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+
+            /** Catcher Area CSS **/
+
+            .content_row {
+                display: flex;
+                margin: 0 -20px;
+                flex-wrap: wrap;
+            }
+
+            * {
+                box-sizing: border-box;
+            }
+
+            .content-width {
+                max-width: 50%;
+                display: inline-block;
+                float: none;
+                flex: 0 0 50%;
+                padding: 0 20px;
+            }
+
+            .content-width .catcher-content-1 {
+                margin-bottom: 30px;
+            }
+
+            .content-width .catcher-content-1 h2 {
+                margin-bottom: 15px;
+            }
+
+            .content-width .catcher-content-1 p a {
+                color: #002d72;
+                font-weight: 500;
+            }
+
+            .content-width .catcher-content-2 h3 {
+                /* font-size: 15px; */
+                font-weight: bold !important;
+            }
+
+            .content-width .catcher-content-2 ul {
+                padding-left: 0;
+                margin-bottom: 0;
+                list-style-type: none;
+            }
+
+            .content-width .catcher-content-2 ul li {
+                margin-bottom: 15px;
+                position: relative;
+                padding-left: 50px;
+            }
+
+            .content-width .catcher-content-2 ul li::before {
+                content: "";
+                position: absolute;
+                top: 10px;
+                left: 0;
+                width: 10px;
+                height: 1px;
+                background-color: #002d72;
+            }
+
+            .content-width .catcher-content-2 ul li:last-child {
+                margin-bottom: 0;
+            }
+
+            .content-width .catcher-content-2 ul li a {
+                font-weight: 500;
+                color: #002d72;
+            }
+
+            .catcher-content-3 {
+                margin-bottom: 30px;
+                width: 100%;
+
+            }
+
+            .catcher-content-3 p a {
+                color: #002d72;
+                font-weight: 500 !important;
+            }
+
+            .catcher-content-6 a {
+                text-decoration: underline;
+                color: #6c7a8b;
+                font-weight: 500;
+            }
+
+            .catcher-content-7 ul {
+                padding-left: 0;
+                margin-bottom: 0;
+                list-style: none;
+            }
+
+            .catcher-content-7 ul li {
+                margin-bottom: 15px;
+            }
+
+            .catcher-content-7 ul li:last-child {
+                margin-bottom: 0;
+            }
+
+            .catcher-content-7 ul li a {
+                text-decoration: underline;
+                color: #6c7a8b;
+                font-weight: 500;
+            }
+
+            .catcher-content-8 h2 span {
+                font-style: normal;
+            }
+
+            .catcher-content-8 span {
+                font-style: italic;
+            }
+
+            .catcher-content-9 strong {
+                color: #002d72;
+            }
+
+            .SCC-img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+                text-align: center;
+            }
+
+            /** Responsive Area CSS **/
+            /* Max width 767px */
+
+            @media only screen and (max-width: 767px) {
+                .performance-img img {
+                    width: 100%;
+                }
+
+                .pr-15 {
+                    padding-right: 0;
+                }
+
+                .pl-15 {
+                    padding-left: 0;
+                }
+
+                .content-width {
+                    max-width: 100%;
+                    display: inline-block;
+                    float: none;
+                    flex: 0 0 100%;
+                }
+            }
+
+            /* Min width 768px to Max width 991px */
+
+            @media only screen and (min-width: 768px) and (max-width: 991px) {
+                .performance-img img {
+                    width: 100%;
+                }
+
+                .pr-15 {
+                    padding-right: 0;
+                }
+
+                .pl-15 {
+                    padding-left: 0;
+                }
+
+                .content-width {
+                    max-width: 100%;
+                    display: inline-block;
+                    float: none;
+                    flex: 0 0 100%;
+                    padding: 0 20px;
+                }
+            }
+        </style>
+        <!-- End Style Area -->
+
+        <script>
+            function changeLandingPageTab(evt, companyName) {
+                var i, x, tablinks;
+                x = document.getElementsByClassName("company");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                tablinks = document.getElementsByClassName("tablink");
+                for (i = 0; i < x.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" activeTab", "");
+                }
+                document.getElementById(companyName).style.display = "flex";
+                evt.currentTarget.className += " activeTab";
+            }
+        </script>
+
+</body>
+
+</html>
