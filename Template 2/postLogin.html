@@ -22,10 +22,10 @@
         </div>
     </div>
 
-    <div class="centered-image">
+    <div class="center-elements">
         <a href="Add URL here"
-            target="_blank">
-            <img
+            target="_blank" class="smaller-image">
+            <img class="smaller-image"
                 src="https://github.com/ActionSustainability/static-content/blob/master/Template%202/Green%20Photo-centric%20Government%20Progress%20Report%20Sustainable%20Development%20Goals%20Presentation.png?raw=true">
         </a>
     </div>
@@ -304,6 +304,19 @@
         .centered-image {
             display: contain;
             justify-content: center;
+        }
+        .smaller-image {
+            max-width: 90%;
+            height: auto;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .center-elements {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
 
         /** Performance Area CSS **/
