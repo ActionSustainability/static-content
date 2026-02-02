@@ -1,1 +1,441 @@
 
+
+WASTE LOG SBCC tested here: https://sbcc.sustainabilitytool.com/project/bac8ac38/wpack/8bb3649e/metrics
+
+[
+    {
+        "aggregation": {
+            "field": "Weight (tonnes)",
+            "method": "Sum"
+        },
+        "baseMetricId": "588faca2"
+    },
+    {
+        "filters": [
+            {
+                "Stream__iexact": "Sent to landfill",
+                "Waste type__iexact": "General"
+            }
+        ],
+        "aggregation": {
+            "field": "Weight (tonnes)",
+            "method": "Sum"
+        },
+        "baseMetricId": "9fdf9c88"
+    },
+    {
+        "filters": [
+            {
+                "Stream__iexact": "Recycled/Composted",
+                "Waste type__iexact": "General"
+            }
+        ],
+        "aggregation": {
+            "field": "Weight (tonnes)",
+            "method": "Sum"
+        },
+        "baseMetricId": "216dbf65"
+    },
+
+    {
+        "filters": [
+            {
+                "Stream__iexact": "Recycled/Composted",
+                "Waste type__iexact": "Food and garden"
+            }
+        ],
+        "aggregation": {
+            "field": "Weight (tonnes)",
+            "method": "Sum"
+        },
+        "baseMetricId": "74a97c88"
+    },
+    {
+        "filters": [
+            {
+                "Stream__iexact": "Sent to landfill",
+                "Waste type__iexact": "Food and garden"
+            }
+        ],
+        "aggregation": {
+            "field": "Weight (tonnes)",
+            "method": "Sum"
+        },
+        "baseMetricId": "3513e820"
+    },
+
+    {
+        "filters": [
+            {
+                "Stream__iexact": "Recycled/Composted",
+                "Waste type__iexact": "Paper"
+            }
+        ],
+        "aggregation": {
+            "field": "Weight (tonnes)",
+            "method": "Sum"
+        },
+        "baseMetricId": "4049ddb1"
+    },
+    {
+        "filters": [
+            {
+                "Stream__iexact": "Sent to landfill",
+                "Waste type__iexact": "Paper"
+            }
+        ],
+        "aggregation": {
+            "field": "Weight (tonnes)",
+            "method": "Sum"
+        },
+        "baseMetricId": "0c65e19c"
+    },
+
+    {
+        "filters": [
+            {
+                "Stream__iexact": "Recycled/Composted",
+                "Waste type__iexact": "Plastic"
+            }
+        ],
+        "aggregation": {
+            "field": "Weight (tonnes)",
+            "method": "Sum"
+        },
+        "baseMetricId": "41566c53"
+    },
+    {
+        "filters": [
+            {
+                "Stream__iexact": "Sent to landfill",
+                "Waste type__iexact": "Plastic"
+            }
+        ],
+        "aggregation": {
+            "field": "Weight (tonnes)",
+            "method": "Sum"
+        },
+        "baseMetricId": "3e996f3a"
+    },
+
+    {
+        "filters": [
+            {
+                "Stream__iexact": "Recycled/Composted",
+                "Waste type__iexact": "Plastic"
+            }
+        ],
+        "aggregation": {
+            "field": "Weight (tonnes)",
+            "method": "Sum"
+        },
+        "baseMetricId": "41566c53"
+    },
+    {
+        "filters": [
+            {
+                "Stream__iexact": "Sent to landfill",
+                "Waste type__iexact": "Plastic"
+            }
+        ],
+        "aggregation": {
+            "field": "Weight (tonnes)",
+            "method": "Sum"
+        },
+        "baseMetricId": "3e996f3a"
+    },
+
+    {
+        "filters": [
+            {
+                "Stream__iexact": "Recycled/Composted",
+                "Waste type__iexact": "Metal"
+            }
+        ],
+        "aggregation": {
+            "field": "Weight (tonnes)",
+            "method": "Sum"
+        },
+        "baseMetricId": "ae95cf61"
+    },
+    {
+        "filters": [
+            {
+                "Stream__iexact": "Sent to landfill",
+                "Waste type__iexact": "Metal"
+            }
+        ],
+        "aggregation": {
+            "field": "Weight (tonnes)",
+            "method": "Sum"
+        },
+        "baseMetricId": "6fd4cbd3"
+    },
+
+    {
+        "filters": [
+            {
+                "Stream__iexact": "Recycled/Composted",
+                "Waste type__iexact": "Electrical"
+            }
+        ],
+        "aggregation": {
+            "field": "Weight (tonnes)",
+            "method": "Sum"
+        },
+        "baseMetricId": "fc4c6eb6"
+    },
+    {
+        "filters": [
+            {
+                "Stream__iexact": "Sent to landfill",
+                "Waste type__iexact": "Electrical"
+            }
+        ],
+        "aggregation": {
+            "field": "Weight (tonnes)",
+            "method": "Sum"
+        },
+        "baseMetricId": "a6cfe03a"
+    },
+
+        {
+        "filters": [
+            {
+                "Stream__iexact": "Recycled/Composted",
+                "Waste type__iexact": "Construction"
+            }
+        ],
+        "aggregation": {
+            "field": "Weight (tonnes)",
+            "method": "Sum"
+        },
+        "baseMetricId": "affcf23d"
+    },
+    {
+        "filters": [
+            {
+                "Stream__iexact": "Sent to landfill",
+                "Waste type__iexact": "Construction"
+            }
+        ],
+        "aggregation": {
+            "field": "Weight (tonnes)",
+            "method": "Sum"
+        },
+        "baseMetricId": "c3fb4159"
+    },
+
+            {
+        "filters": [
+            {
+                "Stream__iexact": "Recycled/Composted",
+                "Waste type__iexact": "Glass"
+            }
+        ],
+        "aggregation": {
+            "field": "Weight (tonnes)",
+            "method": "Sum"
+        },
+        "baseMetricId": "11204d9c"
+    },
+    {
+        "filters": [
+            {
+                "Stream__iexact": "Sent to landfill",
+                "Waste type__iexact": "Glass"
+            }
+        ],
+        "aggregation": {
+            "field": "Weight (tonnes)",
+            "method": "Sum"
+        },
+        "baseMetricId": "96cbbdc2"
+    }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+MATERIAL GOODS LOG: https://sbcc.sustainabilitytool.com/project/bac8ac38/wpack/8bb3649e/metrics
+
+[
+    {
+        "aggregation": {
+            "field": "Amount of spend (GBP)",
+            "method": "Sum"
+        },
+        "baseMetricId": "2f07652e"
+    },
+    {
+        "filters": [
+            {
+                "Category__iexact": "Clothing"
+            }
+        ],
+        "aggregation": {
+            "field": "Amount (tonnes)",
+            "method": "Sum"
+        },
+        "baseMetricId": "ba49dc54"
+    },
+    {
+        "filters": [
+            {
+                "Category__iexact": "Construction"
+            }
+        ],
+        "aggregation": {
+            "field": "Amount (tonnes)",
+            "method": "Sum"
+        },
+        "baseMetricId": "926ce968"
+    },
+    {
+        "filters": [
+            {
+                "Category__iexact": "Electrical"
+            }
+        ],
+        "aggregation": {
+            "field": "Amount (tonnes)",
+            "method": "Sum"
+        },
+        "baseMetricId": "66c37083"
+    },
+    {
+        "filters": [
+            {
+                "Category__iexact": "Food & drink"
+            }
+        ],
+        "aggregation": {
+            "field": "Amount (tonnes)",
+            "method": "Sum"
+        },
+        "baseMetricId": "e68c0445"
+    },
+    {
+        "filters": [
+            {
+                "Category__iexact": "Glass goods & materials"
+            }
+        ],
+        "aggregation": {
+            "field": "Amount (tonnes)",
+            "method": "Sum"
+        },
+        "baseMetricId": "accc8af0"
+    },
+    {
+        "filters": [
+            {
+                "Category__iexact": "Metal"
+            }
+        ],
+        "aggregation": {
+            "field": "Amount (tonnes)",
+            "method": "Sum"
+        },
+        "baseMetricId": "7ff9cdbb"
+    },
+        {
+        "filters": [
+            {
+                "Category__iexact": "Paper"
+            }
+        ],
+        "aggregation": {
+            "field": "Amount (tonnes)",
+            "method": "Sum"
+        },
+        "baseMetricId": "1b0d0a80"
+    },
+    {
+        "filters": [
+            {
+                "Category__iexact": "Plastic goods & materials"
+            }
+        ],
+        "aggregation": {
+            "field": "Amount (tonnes)",
+            "method": "Sum"
+        },
+        "baseMetricId": "c548d517"
+    },
+        {
+        "filters": [
+            {
+                "Category__iexact": "Plastic films goods & materials"
+            }
+        ],
+        "aggregation": {
+            "field": "Amount (tonnes)",
+            "method": "Sum"
+        },
+        "baseMetricId": "66e5faee"
+    }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
